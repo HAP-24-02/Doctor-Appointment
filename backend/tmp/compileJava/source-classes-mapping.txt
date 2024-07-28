@@ -1,0 +1,148 @@
+com/medizine/backend/repositoryservices/MeetingRepositoryServiceImpl.java
+ com.medizine.backend.repositoryservices.MeetingRepositoryServiceImpl
+com/medizine/backend/models/Media.java
+ com.medizine.backend.models.Media
+com/medizine/backend/dto/User.java
+ com.medizine.backend.dto.User
+ com.medizine.backend.dto.User$UserBuilder
+com/medizine/backend/exchanges/SlotBookingRequest.java
+ com.medizine.backend.exchanges.SlotBookingRequest
+com/medizine/backend/exceptions/RestExceptionHandler.java
+ com.medizine.backend.exceptions.RestExceptionHandler
+com/medizine/backend/repositoryservices/SlotRepositoryService.java
+ com.medizine.backend.repositoryservices.SlotRepositoryService
+com/medizine/backend/models/DoctorEntity.java
+ com.medizine.backend.models.DoctorEntity
+com/medizine/backend/controller/ZoomController.java
+ com.medizine.backend.controller.ZoomController
+com/medizine/backend/exceptions/StorageFileNotFoundException.java
+ com.medizine.backend.exceptions.StorageFileNotFoundException
+com/medizine/backend/dto/ZoomMeetingStatus.java
+ com.medizine.backend.dto.ZoomMeetingStatus
+com/medizine/backend/controller/AppointmentController.java
+ com.medizine.backend.controller.AppointmentController
+com/medizine/backend/repositories/MediaRepository.java
+ com.medizine.backend.repositories.MediaRepository
+com/medizine/backend/exchanges/Response.java
+ com.medizine.backend.exchanges.Response
+com/medizine/backend/dto/Slot.java
+ com.medizine.backend.dto.Slot
+com/medizine/backend/exchanges/UploadMediaResponse.java
+ com.medizine.backend.exchanges.UploadMediaResponse
+com/medizine/backend/repositories/UserRepository.java
+ com.medizine.backend.repositories.UserRepository
+com/medizine/backend/repositoryservices/UserRepositoryServiceImpl.java
+ com.medizine.backend.repositoryservices.UserRepositoryServiceImpl
+com/medizine/backend/dto/StatusType.java
+ com.medizine.backend.dto.StatusType
+com/medizine/backend/dto/Status.java
+ com.medizine.backend.dto.Status
+com/medizine/backend/MedizineBackendApplication.java
+ com.medizine.backend.MedizineBackendApplication
+com/medizine/backend/config/StorageProperties.java
+ com.medizine.backend.config.StorageProperties
+com/medizine/backend/repositoryservices/MediaRepositoryService.java
+ com.medizine.backend.repositoryservices.MediaRepositoryService
+com/medizine/backend/exchanges/UserPatchRequest.java
+ com.medizine.backend.exchanges.UserPatchRequest
+com/medizine/backend/dto/MultiLingual.java
+ com.medizine.backend.dto.MultiLingual
+com/medizine/backend/exceptions/DocumentStorageException.java
+ com.medizine.backend.exceptions.DocumentStorageException
+com/medizine/backend/controller/ApiCrudController.java
+ com.medizine.backend.controller.ApiCrudController
+com/medizine/backend/dto/BaseModel.java
+ com.medizine.backend.dto.BaseModel
+com/medizine/backend/services/ZoomMeetingService.java
+ com.medizine.backend.services.ZoomMeetingService
+com/medizine/backend/controller/BaseController.java
+ com.medizine.backend.controller.BaseController
+com/medizine/backend/repositories/AppointmentRepository.java
+ com.medizine.backend.repositories.AppointmentRepository
+com/medizine/backend/exchanges/SlotStatusRequest.java
+ com.medizine.backend.exchanges.SlotStatusRequest
+com/medizine/backend/exchanges/PatchHelper.java
+ com.medizine.backend.exchanges.PatchHelper
+com/medizine/backend/services/BaseService.java
+ com.medizine.backend.services.BaseService
+com/medizine/backend/dto/BaseEntity.java
+ com.medizine.backend.dto.BaseEntity
+com/medizine/backend/utils/ApiSubError.java
+ com.medizine.backend.utils.ApiSubError
+ com.medizine.backend.utils.ApiValidationError
+com/medizine/backend/exchanges/DoctorPatchRequest.java
+ com.medizine.backend.exchanges.DoctorPatchRequest
+com/medizine/backend/services/MediaService.java
+ com.medizine.backend.services.MediaService
+com/medizine/backend/services/DoctorService.java
+ com.medizine.backend.services.DoctorService
+com/medizine/backend/dto/Doctor.java
+ com.medizine.backend.dto.Doctor
+ com.medizine.backend.dto.Doctor$DoctorBuilder
+com/medizine/backend/services/UserService.java
+ com.medizine.backend.services.UserService
+com/medizine/backend/repositoryservices/MeetingRepositoryService.java
+ com.medizine.backend.repositoryservices.MeetingRepositoryService
+com/medizine/backend/dto/Appointment.java
+ com.medizine.backend.dto.Appointment
+ com.medizine.backend.dto.Appointment$AppointmentBuilder
+com/medizine/backend/repositoryservices/AppointmentRepositoryService.java
+ com.medizine.backend.repositoryservices.AppointmentRepositoryService
+com/medizine/backend/controller/SlotController.java
+ com.medizine.backend.controller.SlotController
+com/medizine/backend/exceptions/MedizineAppException.java
+ com.medizine.backend.exceptions.MedizineAppException
+com/medizine/backend/controller/UserController.java
+ com.medizine.backend.controller.UserController
+com/medizine/backend/controller/DoctorController.java
+ com.medizine.backend.controller.DoctorController
+com/medizine/backend/exchanges/ZoomMeetingResponse.java
+ com.medizine.backend.exchanges.ZoomMeetingResponse
+ com.medizine.backend.exchanges.ZoomMeetingResponse$ZoomMeetingResponseBuilder
+com/medizine/backend/exchanges/AppointmentResponse.java
+ com.medizine.backend.exchanges.AppointmentResponse
+com/medizine/backend/log/UncaughtExceptionHandler.java
+ com.medizine.backend.log.UncaughtExceptionHandler
+com/medizine/backend/repositoryservices/DoctorRepositoryServiceImpl.java
+ com.medizine.backend.repositoryservices.DoctorRepositoryServiceImpl
+com/medizine/backend/exchanges/BaseResponse.java
+ com.medizine.backend.exchanges.BaseResponse
+com/medizine/backend/repositories/ZoomRepository.java
+ com.medizine.backend.repositories.ZoomRepository
+com/medizine/backend/exceptions/StorageException.java
+ com.medizine.backend.exceptions.StorageException
+com/medizine/backend/controller/MediaController.java
+ com.medizine.backend.controller.MediaController
+com/medizine/backend/services/MediaStorageService.java
+ com.medizine.backend.services.MediaStorageService
+com/medizine/backend/dto/MedicalHistory.java
+ com.medizine.backend.dto.MedicalHistory
+com/medizine/backend/dto/UserBookingDetail.java
+ com.medizine.backend.dto.UserBookingDetail
+com/medizine/backend/repositories/DoctorRepository.java
+ com.medizine.backend.repositories.DoctorRepository
+com/medizine/backend/repositoryservices/UserRepositoryService.java
+ com.medizine.backend.repositoryservices.UserRepositoryService
+com/medizine/backend/exchanges/ZoomMeetingRequest.java
+ com.medizine.backend.exchanges.ZoomMeetingRequest
+com/medizine/backend/dto/ZoomMeeting.java
+ com.medizine.backend.dto.ZoomMeeting
+com/medizine/backend/services/MediaStorageServiceImpl.java
+ com.medizine.backend.services.MediaStorageServiceImpl
+com/medizine/backend/CorsConfig.java
+ com.medizine.backend.CorsConfig
+com/medizine/backend/repositoryservices/DoctorRepositoryService.java
+ com.medizine.backend.repositoryservices.DoctorRepositoryService
+com/medizine/backend/exchanges/DoctorListResponse.java
+ com.medizine.backend.exchanges.DoctorListResponse
+com/medizine/backend/exchanges/SlotResponse.java
+ com.medizine.backend.exchanges.SlotResponse
+com/medizine/backend/config/SwaggerConfiguration.java
+ com.medizine.backend.config.SwaggerConfiguration
+com/medizine/backend/repositories/SlotRepository.java
+ com.medizine.backend.repositories.SlotRepository
+com/medizine/backend/utils/ApiError.java
+ com.medizine.backend.utils.ApiError
+com/medizine/backend/exchanges/UserListResponse.java
+ com.medizine.backend.exchanges.UserListResponse
+ com.medizine.backend.exchanges.UserListResponse$UserListResponseBuilder

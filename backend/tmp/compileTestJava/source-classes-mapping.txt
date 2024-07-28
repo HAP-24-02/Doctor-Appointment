@@ -1,0 +1,2 @@
+com/medizine/backend/MedizineBackendApplicationTests.java
+ com.medizine.backend.MedizineBackendApplicationTests

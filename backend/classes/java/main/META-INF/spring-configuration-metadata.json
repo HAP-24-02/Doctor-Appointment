@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.medizine.backend.models.Media",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "storage",
+      "type": "com.medizine.backend.config.StorageProperties",
+      "sourceType": "com.medizine.backend.config.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.mongodb.WriteConcern",
+      "type": "java.lang.String",
+      "description": "Description for com.mongodb.WriteConcern."
+    },
+    {
+      "name": "file.file-format",
+      "type": "java.lang.String",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "file.file-name",
+      "type": "java.lang.String",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "file.id",
+      "type": "org.bson.types.ObjectId",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "description": "Description for file.upload-dir.",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "file.user-id",
+      "type": "java.lang.String",
+      "sourceType": "com.medizine.backend.models.Media"
+    },
+    {
+      "name": "storage.location",
+      "type": "java.lang.String",
+      "sourceType": "com.medizine.backend.config.StorageProperties"
+    }
+  ],
+  "hints": []
+}
